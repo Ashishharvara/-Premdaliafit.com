@@ -6,18 +6,18 @@ export const programs: Program[] = [
     number: '01',
     title: '2-Month Beginner Gym Workout Plan',
     subtitle: '2-Month Starter Protocol',
-    tagline: 'अगर आप पहली बार Gym Join कर रहे हैं, तो First Day से लेकर पूरे 2 महीनों तक का Workout Routine.',
-    description: 'अगर आप पहली बार Gym Join कर रहे हैं, तो यह Workout Plan आपके लिए बनाया गया है। इसमें शुरुआत के First Day से लेकर पूरे 2 महीनों तक का Workout Routine दिया गया है, ताकि आप सही तरीके से Exercise सीखकर अपनी Fitness Journey शुरू कर सकें।',
+    tagline: 'If you are joining the gym for the first time, a complete step-by-step workout routine from Day 1 through 2 full months.',
+    description: 'Designed specifically for beginners stepping into the gym for the first time. This workout plan takes you from Day 1 through the first 2 months with step-by-step exercise routines, helping you master proper form, build consistency, and start your fitness journey with complete confidence.',
     image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop',
     duration: '2 Months (60 Days)',
     intensity: 'Beginner-Friendly to Progressive',
-    targetAudience: 'जो लोग पहली बार Gym Join कर रहे हैं और बिना किसी Confusion के Day 1 से सही तकनीक और रूटीन के साथ शुरुआत करना चाहते हैं।',
+    targetAudience: 'First-time gym goers looking for structured guidance on exercises, correct form, and daily routines without confusion.',
     schedule: 'Day 1 to 60 Structured Daily Routine',
     features: [
-      'Day 1 से लेकर पूरे 2 महीनों तक का Step-by-Step Routine',
-      'Exercise Technique, Posture और सही Form Guidance',
-      'Machine & Free-Weights का सुरक्षित इंट्रोडक्शन',
-      'Gym Confusion और Overtraining से बचने के Safe Protocols',
+      'Step-by-step routine from Day 1 through 2 full months',
+      'Exercise technique, posture & proper form guidance',
+      'Safe introduction to machines & free-weights',
+      'Safe protocols to prevent gym confusion & overtraining',
       'Instant access via official Instamojo link'
     ],
     curriculum: [
@@ -27,9 +27,9 @@ export const programs: Program[] = [
       { phase: 'Discipline', weeks: 'Ongoing', focus: 'Habit Consistency & Complete Gym Confidence' }
     ],
     expectedMilestones: [
-      'पहले ही हफ्ते में Gym का डर और Confusion पूरी तरह खत्म',
-      'हर बेसिक Exercise का सही Form और Technique सीखना',
-      'Strength, Stamina और Muscle Tone में साफ़ सुधार'
+      'Eliminate gym anxiety and workout confusion right from week one',
+      'Master the correct form and execution of fundamental exercises',
+      'Noticeable improvements in strength, stamina, and posture'
     ],
     link: 'https://imojo.in/H9ggUs'
   },
