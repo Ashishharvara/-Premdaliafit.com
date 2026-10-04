@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, CheckCircle2, Dumbbell, ExternalLink, Flame } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Dumbbell, ExternalLink, Flame, Sparkles } from 'lucide-react';
 import { programs } from '../../data/programs';
 import type { Program } from '../../types';
 import { SectionHeading } from '../ui/SectionHeading';
@@ -12,6 +12,8 @@ interface ProgramsProps {
 export const Programs: React.FC<ProgramsProps> = ({ onExploreProgram }) => {
   const getIcon = (id: string) => {
     switch (id) {
+      case 'beginner-gym-plan':
+        return <Sparkles className="w-5 h-5 text-[#C7F000]" />;
       case 'beginner-fat-loss':
         return <Flame className="w-5 h-5 text-[#C7F000]" />;
       default:
@@ -32,7 +34,7 @@ export const Programs: React.FC<ProgramsProps> = ({ onExploreProgram }) => {
         />
 
         {/* Programs Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {programs.map((program, idx) => (
             <motion.div
               key={program.id}
